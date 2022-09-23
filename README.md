@@ -1,2 +1,2 @@
-# kata-Game-of-Life
+# kata-GameOfLife
 Written in Typescript, ReactJS and Tailwind CSS
