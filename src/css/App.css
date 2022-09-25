@@ -1,0 +1,51 @@
+:root {
+	--color-primary: #000000;
+	--color-header: black;
+	--background-color: white;
+	--color-footer: black;
+	--text-color: #ffffff;
+	--header-height: 100px;
+	--footer-height: 60px;
+	--base-space: 12px;
+}
+
+/* #region Header  */
+.App-header {
+	background-color: var(--color-header);
+	height: var(--header-height);
+	color: var(--text-color);
+	font-size: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+/* #endregion */
+
+.App-main {
+	background-color: var(--background-color);
+	height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+.content-wrapper {
+	margin: calc(var(--base-space) * 4);
+}
+
+/* #region Footer */
+.App-footer {
+	background-color: var(--color-footer);
+	height: var(--footer-height);
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.author {
+	color: var(--text-color);
+	font-size: 1em;
+	margin-top: var(--base-space);
+}
+
+/* #endregion */
