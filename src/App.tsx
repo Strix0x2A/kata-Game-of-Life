@@ -1,4 +1,4 @@
-import GameOfLife from "./components/GameOfLife/GameOfLife";
+import { GameOfLife, Grid } from "./components/GameOfLife";
 
 import "./css/App.css";
 
@@ -12,7 +12,7 @@ function App() {
 			</header>
 			<div className="App-main">
 				<div className="content-wrapper">
-					<GameOfLife />
+					<GameOfLife grid={new Grid()} />
 				</div>
 			</div>
 			<footer className="App-footer">

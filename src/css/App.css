@@ -31,6 +31,17 @@
 	margin: calc(var(--base-space) * 4);
 }
 
+.line {
+	display: flex;
+}
+
+.cell {
+	width: 10px;
+	height: 10px;
+	border: solid 1px black;
+	margin: 1px;
+}
+
 /* #region Footer */
 .App-footer {
 	background-color: var(--color-footer);

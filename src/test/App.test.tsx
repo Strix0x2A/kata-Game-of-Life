@@ -10,6 +10,6 @@ test("renders App Header", () => {
 
 test("renders App Footer", () => {
   render(<App />);
-  const linkElement = screen.getByText(/Clémence BERGON/i);
+  const linkElement = screen.getByText(/28 septembre 2022/i);
   expect(linkElement).toBeInTheDocument();
 });
