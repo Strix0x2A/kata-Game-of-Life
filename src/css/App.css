@@ -20,6 +20,7 @@
 	align-items: center;
 	justify-content: center;
 }
+
 /* #endregion */
 
 .App-main {
@@ -41,9 +42,10 @@
 	width: 100%;
 }
 
-.date {
+.author {
 	color: var(--text-color);
 	font-size: 1em;
 	margin-top: var(--base-space);
 }
+
 /* #endregion */

@@ -16,8 +16,8 @@ function App() {
 				</div>
 			</div>
 			<footer className="App-footer">
-				<div className="date">
-					28 septembre 2022
+				<div className="author">
+					Clémence BERGON
 				</div>
 			</footer>
 		</div>
