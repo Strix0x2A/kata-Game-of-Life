@@ -8,6 +8,7 @@ const Cell = (props: CellProps) => {
 	return (
 		<div
 			className={`table-cell ${state}`}
+			// onClick={}
 			style={{
 				width: zoom,
 				height: zoom,

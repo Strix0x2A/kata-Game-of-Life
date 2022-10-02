@@ -1,2 +1,2 @@
 # kata-GameOfLife
-Written in Typescript, ReactJS and Tailwind CSS
+Written in Typescript, ReactJS and scss

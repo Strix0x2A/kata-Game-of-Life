@@ -1,0 +1,61 @@
+@import "_constants.scss";
+
+.App-header {
+	background-color: white;
+	height: $spacing-xl;
+	color: $color-primary;
+	font-size: $font-size-md;
+	font-weight: 600;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.App-main {
+	background-image: linear-gradient(180deg, #e1ebff 70px, rgba(225, 235, 255, 0) 290px);
+	background-color: $background-light;
+	height: calc(100vh - $spacing-xl - $spacing-xl);
+	display: flex;
+
+	.content-describer {
+		flex: 1;
+		margin-left: $spacing-lg;
+		padding-top: $spacing-xl;
+		text-align: center;
+
+		.hero-primary {
+			font-size: $font-size-lg;
+			font-weight: 700;
+			margin-bottom: $spacing-md;
+		}
+	
+		.hero-secondary {
+			font-size: $font-size-md;
+			color: $color-primary-variant-light;
+		}
+	}
+
+	.content {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.App-footer {
+	background-color: $color-secondary;
+	height: $spacing-xl;
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: 8px solid $color-primary;
+
+	.author {
+		color: rgb(250, 250, 255);
+		margin-right: $spacing-xl;
+		font-size: $font-size-lg;
+		margin-top: $spacing-md;
+	}
+}

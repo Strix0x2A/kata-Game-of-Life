@@ -1,0 +1,59 @@
+@import "_constants.scss";
+
+.GameOfLife {
+	width: 100%;
+	margin: $spacing-lg;
+	padding: $spacing-lg;
+	background-color: $color-primary-variant-dark;
+	border-radius: $border-radius;
+	border: 1px solid $color-primary-variant-white;
+	color: white;
+
+	.describer {
+		margin-bottom: $spacing-lg;
+
+		.title {
+			margin-bottom: $spacing-md;
+			color: $color-primary-variant-lighterer;
+		}
+		
+		.title-primary {
+			font-size: $font-size-ll;
+			font-weight: 700;
+		}
+		
+		.title-secondary {
+			font-size: $font-size-lg;
+		}
+	}
+
+	.board {
+		margin: $spacing-md auto;
+		padding: 0.5px;
+		width: max-content;
+		background-color: $color-primary-variant-lighter;
+
+		.table-row {
+			display: flex;
+		}
+		
+		.table-cell {
+			margin: 0.5px;
+		}
+		
+		.living {
+			background-color: white;
+			transition: all 400ms ease-in;
+		}
+		
+		.dead {
+			background-color: $color-primary-variant-darker;
+			transition: all 400ms ease-in;
+		}
+		
+		.fade-in {
+			opacity: 1;
+			transition: all 400ms ease-in;
+		}
+	}
+}

@@ -19,7 +19,7 @@ const Board = (props: BoardProps) => {
 					(cell, x) =>
 						<PrintCell
 							key={`row-cell-${x}`}
-							zoom={12}
+							zoom={20}
 							state={cell.state}
 						/>
 				)}
@@ -27,7 +27,7 @@ const Board = (props: BoardProps) => {
 		)
 	}
 
-	return <>{board}</>;
+	return <div className="board">{board}</div>;
 }
 
 export default Board;
