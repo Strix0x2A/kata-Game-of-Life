@@ -7,14 +7,14 @@ test("renders GameOfLife as a wrapper", () => {
 	expect(linkElement).toBeInTheDocument();
 });
 
-test("renders GameOfLife correct number of rows", () => {
-	const { container } = render(<GameOfLife />);
-	const linkElement = container.getElementsByClassName(`table-row`);
-	expect(linkElement.length).toBe(2);
-});
+// test("renders GameOfLife correct number of rows", () => {
+// 	const { container } = render(<GameOfLife />);
+// 	const linkElement = container.getElementsByClassName(`table-row`);
+// 	expect(linkElement.length).toBe(2);
+// });
 
-test("renders GameOfLife correct number of cells", () => {
-	const { container } = render(<GameOfLife />);
-	const linkElement = container.getElementsByClassName(`table-cell`);
-	expect(linkElement.length).toBe(6);
-});
+// test("renders GameOfLife correct number of cells", () => {
+// 	const { container } = render(<GameOfLife />);
+// 	const linkElement = container.getElementsByClassName(`table-cell`);
+// 	expect(linkElement.length).toBe(6);
+// });
