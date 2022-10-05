@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kata-GameOfLife/static/css/main.92efb0cc.css",
+    "main.js": "/kata-GameOfLife/static/js/main.0b319457.js",
+    "static/js/787.28cb0dcd.chunk.js": "/kata-GameOfLife/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/kata-GameOfLife/index.html",
+    "main.92efb0cc.css.map": "/kata-GameOfLife/static/css/main.92efb0cc.css.map",
+    "main.0b319457.js.map": "/kata-GameOfLife/static/js/main.0b319457.js.map",
+    "787.28cb0dcd.chunk.js.map": "/kata-GameOfLife/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92efb0cc.css",
+    "static/js/main.0b319457.js"
+  ]
+}
