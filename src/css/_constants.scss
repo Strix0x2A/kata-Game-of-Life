@@ -3,6 +3,7 @@ $spacing-md: 12px;
 $spacing-lg: 32px;
 $spacing-xl: 64px;
 $border-radius: 8px;
+/* #endregion */
 
 /* #region Fonts */
 $text-font: 'Quicksand', sans-serif;
@@ -13,6 +14,7 @@ $font-size-md: 16px;
 $font-size-lg: 24px;
 $font-size-ll: 32px;
 $font-size-xl: 64px;
+/* #endregion */
 
 /* #region Colors */
 $color-primary: #604fcd;
@@ -24,3 +26,11 @@ $color-primary-variant-dark: #282339;
 $color-primary-variant-darker: #211d2f;
 $color-secondary: #130b43;
 $background-light: #fbfcfe;
+/* #endregion */
+
+/* #region Shadows */
+$shadow-sm: 0px 4px 16px 0px rgba(0,0,0,.2);
+$shadow-base: 0px 4px 24px 0px rgba(0,0,0,.15);
+$shadow-lg: 0px 4px 42px 0px rgba(0,0,0,.6);
+$shadow-lgZ: 0px 4px 42px 0px rgba(0,0,0,.9);
+/* #endregion */

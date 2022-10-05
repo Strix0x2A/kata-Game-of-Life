@@ -32,6 +32,7 @@
 		padding: 0.5px;
 		width: max-content;
 		background-color: $color-primary-variant-lighter;
+		box-shadow: 0 0 #0000, 0 0 #0000, $shadow-lg;
 
 		.table-row {
 			display: flex;
@@ -42,18 +43,25 @@
 		}
 		
 		.living {
-			background-color: white;
-			transition: all 400ms ease-in;
+			// background-color: #b7eb8f;
+			background-color: #ffadd2;
+			transition: all 200ms ease-in;
+		}
+		
+		.newborn {
+			// background-color: #f6ffed;
+			background-color: #fff0f6;
+			transition: all 200ms ease-in;
 		}
 		
 		.dead {
 			background-color: $color-primary-variant-darker;
-			transition: all 400ms ease-in;
+			transition: all 200ms ease-in;
 		}
 		
 		.fade-in {
 			opacity: 1;
-			transition: all 400ms ease-in;
+			transition: all 200ms ease-in;
 		}
 	}
 }

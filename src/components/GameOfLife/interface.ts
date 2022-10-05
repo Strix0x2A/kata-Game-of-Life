@@ -3,10 +3,12 @@ export interface Coord {
 	y: number;
 }
 
+export type CellState = "newborn" | "living" | "dead";
+
 export interface Stated {
-	state: "living" | "dead";
+	state: CellState;
 }
 
-export type InitCell =  Coord & Stated;
+export type CellsConfig =  Coord & Stated;
 
-export type Cell = {} & Stated;
+export type Cell = Stated;
